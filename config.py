@@ -10,7 +10,7 @@ PASS_DB = int(os.environ.get("PASS_DB", "721"))
 
 OWNER = int(os.environ.get("OWNER",6982484823))
 
-LOG = -1002008011161            #don't change it otherwise you face error while deploying.
+LOG = -   -1002113257984         #don't change it otherwise you face error while deploying.
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "Your user id").split()):
